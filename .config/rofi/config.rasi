@@ -1,0 +1,125 @@
+
+/* ==========================================
+   Dark Sway rice — Rofi theme
+   ========================================== */
+
+* {
+    font: "Cascadia Mono NF 12";
+    background: #282a36;
+    background-alt: #343746;
+    foreground: #d8dee9;
+    selected: #50fa7b;
+    active: #bd93f9;
+    urgent: #ff5555;
+
+    border-colour: #6272a4;
+    text-colour: #d8dee9;
+
+    width: 100%;
+    spacing: 0;
+}
+
+window {
+    width: 600px;
+    border: 1px;
+    border-color: #6272a4;
+    border-radius: 8px;
+    background-color: #282a36;
+    padding: 12px;
+}
+
+mainbox {
+    background-color: #282a36;
+    spacing: 10px;
+    children: [ inputbar, listview ];
+}
+
+inputbar {
+    background-color: #343746;
+    text-color: #f8f8f2;
+    border: 1px;
+    border-color: #44475a;
+    border-radius: 5px;
+    padding: 10px 12px;
+    spacing: 8px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: #50fa7b;
+}
+
+entry {
+    background-color: transparent;
+    text-color: #f8f8f2;
+    placeholder: "Search applications...";
+    placeholder-color: #74798d;
+}
+
+listview {
+    background-color: transparent;
+    columns: 1;
+    lines: 8;
+    fixed-height: false;
+    cycle: true;
+    scrollbar: false;
+    spacing: 3px;
+    padding: 2px;
+}
+
+element {
+    background-color: transparent;
+    text-color: #c5c8d5;
+    border-radius: 4px;
+    padding: 8px 10px;
+    spacing: 10px;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: #c5c8d5;
+}
+
+element selected.normal {
+    background-color: #303c42;
+    text-color: #50fa7b;
+    border: 1px;
+    border-color: #50fa7b;
+}
+
+element alternate.normal {
+    background-color: #2c2e3b;
+    text-color: #c5c8d5;
+}
+
+element active.normal {
+    text-color: #bd93f9;
+}
+
+element urgent.normal {
+    text-color: #ff5555;
+}
+
+element-icon {
+    size: 24px;
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+message {
+    background-color: #343746;
+    border-color: #6272a4;
+    padding: 8px;
+}
+
+textbox {
+    background-color: transparent;
+    text-color: #d8dee9;
+}
+
