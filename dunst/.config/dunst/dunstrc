@@ -1,0 +1,10 @@
+[global]
+monitor = 0
+follow = mouse
+width = 300
+height = 150
+offset = 10x50
+corner_radius = 0
+# Wayland layer
+layer = top
+force_xwayland = false

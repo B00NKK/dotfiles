@@ -1,4 +1,3 @@
-
 {
     "layer": "top",
     "position": "top",
@@ -18,7 +17,6 @@
         "idle_inhibitor",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
         "battery",
         "clock",
         "tray"
@@ -81,17 +79,6 @@
         "tooltip": true
     },
 
-    "power-profiles-daemon": {
-        "format": "{icon}",
-        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-        "format-icons": {
-            "default": "",
-            "performance": "",
-            "balanced": "",
-            "power-saver": ""
-        }
-    },
-
     "battery": {
         "states": {
             "warning": 30,
@@ -122,4 +109,3 @@
         "spacing": 8
     }
 }
-
