@@ -1,0 +1,17 @@
+stow
+base-devel
+grub
+greetd
+greetd-tuigreet
+neovim
+foot
+ttf-jetbrains-mono-nerd
+hyprland
+waybar
+rofi
+networkmanager
+network-manager-applet
+firefox
+pipewire
+pipewire-pulse
+pavucontrol

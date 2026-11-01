@@ -1,0 +1,156 @@
+
+/* ==========================================
+   Dark Hyprland rice — Dracula / Nord inspired
+   ========================================== */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    min-height: 0;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: rgba(40, 42, 54, 0.97);
+    color: #d8dee9;
+    border-bottom: 1px solid #191a24;
+}
+
+/* Workspace area */
+#workspaces {
+    margin: 0;
+    padding: 0 3px;
+    background: transparent;
+}
+
+#workspaces button {
+    color: #c5c8d5;
+    background: transparent;
+    padding: 2px 6px;
+    margin: 3px 1px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background 150ms ease;
+}
+
+#workspaces button:hover {
+    background: #343746;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    color: #50fa7b;
+    background: #303440;
+    border: 1px solid #50fa7b;
+}
+
+#workspaces button.urgent {
+    color: #282a36;
+    background: #ff5555;
+}
+
+#workspaces button.persistent {
+    color: #8b90a5;
+}
+
+#workspaces button.empty {
+    color: #74798d;
+}
+
+/* Hyprland submap */
+#submap {
+    color: #282a36;
+    background: #ff79c6;
+    padding: 0 8px;
+    margin: 3px 5px;
+}
+
+/* Window title */
+#window {
+    color: #c5c8d5;
+    padding: 0 8px;
+}
+
+window#waybar.empty #window {
+    background: transparent;
+}
+
+/* Shared status modules */
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#power-profiles-daemon,
+#battery,
+#clock,
+#tray {
+    padding: 0 7px;
+    margin: 3px 0;
+    background: transparent;
+}
+
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#power-profiles-daemon,
+#battery {
+    font-size: 12px;
+}
+
+/* Accent colors */
+#idle_inhibitor {
+    color: #bd93f9;
+}
+
+#pulseaudio {
+    color: #8be9fd;
+}
+
+#network {
+    color: #bd93f9;
+}
+
+#power-profiles-daemon {
+    color: #ff79c6;
+}
+
+#battery {
+    color: #f1fa8c;
+}
+
+#clock {
+    color: #50fa7b;
+    padding: 0 9px;
+}
+
+#tray {
+    padding: 0 5px;
+}
+
+/* Battery warnings */
+#battery.warning {
+    color: #ffb86c;
+}
+
+#battery.critical {
+    color: #ff5555;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+/* Tooltips */
+tooltip {
+    background: #282a36;
+    color: #f8f8f2;
+    border: 1px solid #6272a4;
+    border-radius: 4px;
+}
+
+tooltip label {
+    color: #f8f8f2;
+    padding: 4px;
+}
+

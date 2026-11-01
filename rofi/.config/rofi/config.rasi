@@ -4,7 +4,7 @@
    ========================================== */
 
 * {
-    font: "Cascadia Mono NF 12";
+    font: "JetBrainsMono Nerd Font 12";
     background: #282a36;
     background-alt: #343746;
     foreground: #d8dee9;
