@@ -12,7 +12,7 @@ waybar
 rofi
 networkmanager
 network-manager-applet
-firefox
+librewolf
 pipewire
 pipewire-pulse
 pavucontrol
