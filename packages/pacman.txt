@@ -4,12 +4,8 @@ grub
 greetd
 greetd-tuigreet
 neovim
-foot
+alacritty
 ttf-jetbrains-mono-nerd
-hyprland
-hyprpaper
-waybar
-rofi
 networkmanager
 network-manager-applet
 librewolf
