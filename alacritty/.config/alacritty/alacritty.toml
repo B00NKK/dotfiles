@@ -1,0 +1,6 @@
+[general]
+import = ["theme.toml",]
+
+[font]
+normal = { family = "JetBrainsMonoNF", style = "Regular" }
+size = 9

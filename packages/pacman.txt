@@ -13,3 +13,4 @@ pipewire
 pipewire-pulse
 pavucontrol
 dunst
+feh
